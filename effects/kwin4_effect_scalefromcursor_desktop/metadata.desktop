@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=[Smooth Plasma]Scale from cursor(desktop)
+Name[zh_CN]=[Smooth Plasma]桌面切换动画(从鼠标指针缩放)
+Icon=preferences-system-windows-effect-fadedesktop
+Comment=Minimize or unminimize windows from cursor when switching between virtual desktops
+Comment[zh_CN]=在虚拟桌面间切换时呈现从鼠标处最小化/还原窗口动效
+
+Type=Service
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+X-KDE-ServiceTypes=KWin/Effect
+X-KDE-PluginInfo-Author=kde-yyds
+X-KDE-PluginInfo-Email=kde-yyds@qq.com
+X-KDE-PluginInfo-Name=kwin4_effect_scalefromcursor_desktop
+X-KDE-PluginInfo-Version=0.2.0
+X-KDE-PluginInfo-Category=Virtual Desktop Switching Animation
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=false
+X-KDE-Ordering=50
+X-KWin-Exclusive-Category=desktop-animations

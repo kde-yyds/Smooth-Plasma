@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment=Cross fade animation when Tooltips or Notifications change their geometry. Using curve QEasingCurve.OutExpo.
+Comment[zh_CN]=工具提示/通知信息框大小变化时呈现过渡动效(使用加速曲线QEasingCurve.OutExpo)。
+Icon=preferences-system-windows-effect-morphingpopups
+Name=[Smooth Plasma]Morphing popups
+Name[zh_CN]=[Smooth Plasma]气泡大小渐变动画
+Type=Service
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=kde-yyds
+X-KDE-PluginInfo-Category=Appearance
+X-KDE-PluginInfo-Email=kde-yyds@qq.com
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=kwin4_effect_morphingpopups2
+X-KDE-PluginInfo-Version=1
+X-KDE-PluginInfo-Website=
+X-KDE-ServiceTypes=KWin/Effect
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-Ordering=60
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/morphingpopups.js

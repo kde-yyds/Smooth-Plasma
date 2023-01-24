@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment=Animation for a window going to and leaving full screen mode.Using curve QEasingCurve.OutExpo.
+Comment[zh_CN]=窗口进入/退出全屏模式时呈现过渡动效(使用加速曲线QEasingCurve.OutExpo)。
+Icon=preferences-system-windows-effect-fullscreen
+Name=[Smooth Plasma]Full Screen
+Name[zh_CN]=[Smooth Plasma]全屏模式过渡动画
+Type=Service
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=kde-yyds
+X-KDE-PluginInfo-Category=Appearance
+X-KDE-PluginInfo-Email=kde-yyds@qq.com
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=kwin4_effect_fullscreen2
+X-KDE-PluginInfo-Version=1
+X-KDE-PluginInfo-Website=
+X-KDE-ServiceTypes=KWin/Effect
+X-KDE-PluginInfo-EnabledByDefault=false
+X-KDE-Ordering=60
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/fullscreen.js

@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=[Smooth Plasma]Scale From Cursor
+Name[zh_CN]=[Smooth Plasma]窗口缩放动画(从鼠标指针缩放)
+Icon=preferences-system-windows-effect-scale
+Comment=Make windows smoothly scale in and out from cursor's position when they are shown or hidden
+Comment[zh_CN]=窗口显示/隐藏时呈现从鼠标指针坐标平滑缩放过渡动效
+Type=Service
+X-KDE-ServiceTypes=KWin/Effect,KCModule
+X-KDE-PluginInfo-Author=kde-yyds
+X-KDE-PluginInfo-Email=kde-yyds@qq.com
+X-KDE-PluginInfo-Name=kwin4_effect_scalefromcursor_window
+X-KDE-PluginInfo-Version=1
+X-KDE-PluginInfo-Category=Window Open/Close Animation
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=false
+X-KDE-Ordering=60
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+X-KDE-PluginKeyword=kwin4_effect_scalefromcursor
+X-KDE-Library=kcm_kwin4_genericscripted
+X-KWin-Config-TranslationDomain=kwin_effects
+X-KWin-Exclusive-Category=toplevel-open-close-animation

@@ -1,0 +1,18 @@
+[Desktop Entry]
+Name=[Smooth Plasma]Scale Popups
+Name[zh_CN]=[Smooth Plasma]气泡缩放动画(从鼠标指针缩放)
+Icon=preferences-system-windows-effect-fadingpopups
+Comment=Make popups smoothly scale in and out from cursor's position when they are shown or hidden
+Comment[zh_CN]=气泡信息显示/隐藏时呈现从鼠标指针坐标缩放过渡动画
+Type=Service
+X-KDE-ServiceTypes=KWin/Effect
+X-KDE-PluginInfo-Author=kde-yyds
+X-KDE-PluginInfo-Email=kde-yyds@qq.com
+X-KDE-PluginInfo-Name=kwin4_effect_scalefromcursor_popups
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Category=Appearance
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=false
+X-KDE-Ordering=60
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js

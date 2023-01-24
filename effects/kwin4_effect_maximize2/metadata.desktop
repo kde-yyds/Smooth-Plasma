@@ -1,0 +1,20 @@
+[Desktop Entry]
+Comment=Animation for a window going to maximize/restore from maximize. Using curve QEasingCurve.OutExpo.
+Comment[zh_CN]=窗口最大化/恢复时呈现过渡动效(使用加速曲线QEasingCurve.OutExpo)。
+Icon=preferences-system-windows-effect-maximize
+Name=[Smooth Plasma]Maximize
+Name[zh_CN]=[Smooth Plasma]最大化过渡动画
+Type=Service
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=kde-yyds
+X-KDE-PluginInfo-Category=Appearance
+X-KDE-PluginInfo-Email=kde-yyds@qq.com
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=kwin4_effect_maximize2
+X-KDE-PluginInfo-Version=1
+X-KDE-PluginInfo-Website=
+X-KDE-ServiceTypes=KWin/Effect
+X-KDE-PluginInfo-EnabledByDefault=false
+X-KDE-Ordering=60
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/maximize.js
